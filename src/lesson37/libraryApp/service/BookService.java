@@ -5,4 +5,10 @@ public interface BookService {
     void allList();
 
     void delete();
+
+    void sort();
+
+    void search();
+
+//    void edit();
 }

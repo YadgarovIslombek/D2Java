@@ -1,5 +1,7 @@
 package lesson37.libraryApp.models;
 
+import java.util.List;
+
 public class Book {
     private String author;
     private String bookName;
@@ -9,6 +11,7 @@ public class Book {
     private int writeYear;
 
     private String rating;
+
 
     public Book(String author, String bookName, String category, int writeYear, String rating) {
         this.author = author;
